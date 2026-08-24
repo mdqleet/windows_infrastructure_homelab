@@ -15,11 +15,12 @@ Purpose: Communicate with the internal PCs
 
 ## Static IPv4 Configuration
 
-IP address: 192.168.10.10
-Subnet mask: 255.255.255.0 (/24)
-Default gateway: None
-Preferred DNS: 192.168.10.10
-DC01 will later host the DNS service required by the Active Directory environment
+- **IP address:** 192.168.10.10
+- **Subnet mask:** 255.255.255.0 (/24)
+- **Default gateway:** None
+- **Preferred DNS:** 192.168.10.10
+
+DC01 will later host the DNS service required by the Active Directory environment.
 
 ## Why Static IP?
 
@@ -28,3 +29,5 @@ DC01 uses a static IP address so that its address remains predictable and does n
 ## Verification
 
 `ipconfig /all`
+
+![DC01 static IPv4 configuration](../screenshots/dc01-static-ip.png)
